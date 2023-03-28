@@ -57,9 +57,10 @@ if (("${#pargs}" > 0)); then
 fi
 
 for fil in $(ff ".*\.log$"); do
+    t="$(ts)"
     shortname="$(echo "${fil}" | grep -Po ".*(?=\.)")"
-    newname="${shortname}_.log"
-    ziparchive="${shortname}_$(ts).zip"
+    newname="${shortname}_${t}.log"
+    ziparchive="${shortname}_${t}.zip"
     echo -e "\nzip log file ${fil}"
     rcmd cp "${fil}" "${newname}" &&
         rcmd truncate -s 0 "${fil}" &&
