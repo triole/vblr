@@ -47,7 +47,7 @@ rcmd() {
 }
 
 ff() {
-    find "${workdir}" | grep -E "${1}" | sort
+    find "${workdir}" -mindepth 1 -maxdepth 1 -type f | grep -E "${1}" | sort
 }
 
 # main
