@@ -1,11 +1,13 @@
 # Very Basic Log Rotater
 
-<!--- mdtoc: toc begin -->
+<!-- toc -->
 
-1. [Synopsis](#synopsis)
-2. [Why?](#why-)
-3. [Disclaimer](#disclaimer)
-4. [Help](#help)<!--- mdtoc: toc end -->
+- [Synopsis](#synopsis)
+- [Why?](#why)
+- [Disclaimer](#disclaimer)
+- [Help](#help)
+
+<!-- /toc -->
 
 ## Synopsis
 
